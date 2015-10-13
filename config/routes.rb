@@ -1,6 +1,9 @@
 Rails.application.routes.draw do
   
   resources :faculties
+  get 'faculties/new'
+  post 'faculties/new'
+
   get 'welcome/index'
   root 'welcome#index'
   get "inicio", to: "welcome#index"
