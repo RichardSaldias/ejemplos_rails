@@ -1,14 +1,13 @@
 <!DOCTYPE html>
 <html>
-<head>
- <title>Pronto...</title>
+	<head>
+		<title>Pronto...</title>
 		<%= stylesheet_link_tag 'materialize', media: 'all', 'data-turbolinks-track' => true %>
-  
-</head>
-<body class='orange'>
+	</head>
 
-<%= yield %>
-<%= javascript_include_tag 'jquery-1.10.2'%>
-<%= javascript_include_tag 'materialize.min'%>
-</body>
+	<body class='orange'>
+		<%= yield %>
+		<%= javascript_include_tag 'jquery-1.10.2'%>
+		<%= javascript_include_tag 'materialize.min'%>
+	</body>
 </html>
